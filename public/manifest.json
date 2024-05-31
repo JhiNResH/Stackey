@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Stackey",
+    "version": "1.0.0",
+    "description": "Your Data, Your Privacy.",
+    "action":{
+      "default_popup": "index.html"
+    },
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting",
+      "webNavigation"
+    ],
+    "host_permissions": [
+      "https://*/*",
+      "http://*/*"
+    ],
+    "icons": {
+      "48": "stackeynobg.png"
+        }
+  }
