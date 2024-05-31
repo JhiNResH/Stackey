@@ -33,7 +33,7 @@ function App() {
         </p>
       <div className='button-container'>
         <button className="btn1" onClick={handleConnectWalletClick} disabled={isWalletConnected}>
-          Create a new wallet
+          Confirm
         </button>
         <button className="btn2" onClick={handleRestoreWalletClick} disabled={isWalletConnected}>
         Restore an existing wallet
